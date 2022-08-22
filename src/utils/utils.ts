@@ -17,13 +17,6 @@ export async function getHeaders() {
 	return {};
 }
 
-interface Props {
-	onPress: () => void;
-	btnText: string,
-	btnTextStyle?: object,
-	btnStyle?: object //? means its is an optional 
-  }
-
 
 export async function apiReq(
 	endPoint:string,
